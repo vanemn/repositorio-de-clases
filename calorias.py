@@ -14,8 +14,7 @@
 # print(calorias)
 # print(calorias % 1 > 0)
 
-
-
+# https://docs.python.org/3/library/functions.html#round
 
 #calorıˊas=4×(proteıˊna+carbohidratos)+9×grasa; redondear las calorías hacia arriba, y finalmente imprimir el resultado en el formato: "Las calorías totales del producto son: <calorías redondeadas>".
 #El programa debe solicitar al usuario la cantidad de gramos de proteína, carbohidratos y grasa; calcular las calorías usando la fórmula \( \text{calorías} = 4 \times (\text{proteína} + \text{carbohidratos}) + 9 \times \text{grasa} \); redondear las calorías hacia arriba, y finalmente imprimir el resultado en el formato: "Las calorías totales del producto son: <calorías redondeadas>".
@@ -31,3 +30,4 @@ calorias = math.ceil(calorias)
 
 #print(f'Las calorías totales del producto son: {math.ceil(calorias)}')
 print(f'Las calorías totales del producto son: {calorias}')
+
